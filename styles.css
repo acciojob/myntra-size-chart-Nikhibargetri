@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+thead {
+  background-color: #d46a6a;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
